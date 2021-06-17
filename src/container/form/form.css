@@ -1,0 +1,87 @@
+@import url("../../theme.css");
+/*form container style starts here*/
+.form-container {
+  position: relative;
+}
+/*form container style ends here*/
+
+/*backdrop style starts here*/
+.backdrop {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 25;
+  background-color: #0000002d;
+  cursor: pointer;
+}
+/*backdrop style ends here*/
+
+/*error-msg style starts here*/
+.error-msg {
+  color: var(--danger);
+}
+/*error-msg style ends here*/
+
+/*input-container style starts here*/
+.input-container {
+  position: fixed;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 30%;
+  max-width: 90%;
+  background-color: white;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.input-container fieldset {
+  border-radius: 5px;
+  border: 2px solid var(--primary);
+  height: inherit;
+}
+
+.input-container legend {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container button {
+  min-width: 100px;
+  min-height: 30px;
+  color: white;
+  font-weight: 600;
+  background-color: var(--primary);
+  border-radius: 5px;
+  border: 1px solid var(--primary);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.input-box {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box input {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--primary);
+  min-height: 25px;
+}
+
+.input-box textarea {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--primary);
+}
+/*input-container style ends here*/

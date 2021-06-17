@@ -1,0 +1,74 @@
+@import url("../../theme.css");
+
+/* list tile container style starts here*/
+.list-tile {
+  border: 2px solid var(--primary);
+  min-width: 200px;
+  min-height: 350px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px grey;
+  position: relative;
+  margin: 20px;
+}
+
+.tile-button {
+  flex-grow: 2;
+  justify-self: flex-end;
+  max-width: 30px;
+  font-weight: 800;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/* list tile container style Ends here*/
+
+/* list title bar style starts here*/
+.list-title-bar {
+  height: 40px;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.list-title-bar p {
+  padding: 0 10px;
+}
+/* list title bar style ends here*/
+
+/* list content style starts here*/
+.content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+/* list content style ends here*/
+
+/* list action container style starts here*/
+.action-container {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.action-container .add-card {
+  flex-grow: unset;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  max-width: 100%;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+}
+/* list action container style ends here*/

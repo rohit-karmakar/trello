@@ -1,0 +1,14 @@
+@import url("../../theme.css");
+.titlebar {
+  background-color: var(--primary);
+  min-height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlebar h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
